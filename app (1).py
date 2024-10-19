@@ -28,7 +28,7 @@ person2 = {}
 audio_queue = []  # Queue to store audio files for playback
 
 # Initialize Google Generative AI (Gemini) API key
-API_KEY = 'AIzaSyDmLjhtIezFvZFjGPa_l6POmiVEwoOqFmQ'  # Replace with your actual API key
+API_KEY = ''  # Replace with your actual API key
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
